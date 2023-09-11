@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+        <h2>Feedback Form</h2>
+
+        <div>
+        <lablel>Name:</lablel>
+        <input type="text" value id="Name"/>
+        <br/>
+        <br/>
+        <label> Email:</label>
+        <input type="text"value=""id="Email"/>
+        <br/>
+        <br/>
+        <label> Mobile No:</label>
+        <input type="text"value id="Mobile Number"/>
+        <br/>
+        <br/>
+        <label> Rating:</label>
+        <input type="radio" value=""id="Rating"/>Excellent
+        <input type="radio" value=""id="Rating"/>Very Good
+        <input type="radio" value=""id="Rating"/>Good
+        <input type="radio" value=""id="Rating"/>Not Good
+        <input type="radio" value=""id="Rating"/>Nuetral
+        <br/>
+        <br/>
+        <lable>Suggesions</lable>
+        <input type="text" value=""id="Suggesions"/>
+        <br/>
+        <br/>
+        <input type="button"value="submit"onclick="form()"/>
+        
+        </div>
+        
+        <script>
+        function submitForm()
+        {
+        var Name = document.getElementById("Name");
+        var Email = document.getElementById("Email");
+        var Email = document.getElementById("Mobile No");
+        var Email = document.getElementById("Rating");
+        console.log(Name.value);
+        console.log(Email.value);
+        }
+        
+        </script>
+        </body>
+        </html>
+        

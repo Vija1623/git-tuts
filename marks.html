@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks</title>
+</head>
+<body>
+    <h3>Students Marks(CGPA)</h3>
+
+    <script>
+        var marks={
+            Mathematics : 97,
+            English : 94,
+            Sanscrit : 96,
+            Physics : 87,
+            Chemistry : 88,
+            Computer : 91,
+            total : function(){
+                console.log (marks.Mathematics+marks.English+marks.Sanscrit+marks.Physics+marks.Chemistry+marks.Computer);
+            },
+            percentage: function(){
+                console.log((marks.Mathematics+marks.English+marks.Sanscrit+marks.Physics+marks.Chemistry+marks.Computer)/6);
+            }
+        }
+        marks.total();
+        marks.percentage();
+    </script>
+</body>
+</html>
